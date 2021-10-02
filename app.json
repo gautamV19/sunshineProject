@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Snshine-Project",
-    "slug": "Snshine-Project",
+    "name": "Sunshine",
+    "slug": "Sunshine",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
     ]
   },
-  "name": "Snshine-Project"
+  "name": "Sunshine"
 }
