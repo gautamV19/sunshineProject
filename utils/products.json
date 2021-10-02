@@ -1,0 +1,22 @@
+[{
+    "title":"All Sky Downward Irradiance",
+    "discription":"Shortwave incidence in all sky conditions. Units are energy/(area*days) - J/(m^2*days)",
+    "param":"ALLSKY_SFC_SW_DWN"
+},{
+    "title": "Clear Sky Surface Shortwave Downward Irradiance",
+    "discription": "Shortwave incidence in clear sky conditions.A clear sky condition is defined generally as the absence of visible clouds across the entire sky dome, and clear sky irradiance is the irradiance occurring during these conditions(less 10% of cloud cover). Units are energy/(area*days) - J/(m^2*days)",
+    "param": "CLRSKY_SFC_SW_DWN"
+},{
+    "title": "All Sky Insolation Clearness Index",
+    "discription": "Ratio of total solar radiation incident on a horizontal surface at the surface of the earth to the solar radiation incident at the top of the atmosphere",
+    "param": "ALLSKY_KT"
+},{
+    "title": "All Sky Normalized Insolation Clearness Index",
+    "discription": "This is also a dimensionless property",
+    "param": "ALLSKY_NKT"
+},{
+    "title": "All Sky Surface Longwave Downward Irradiation",
+    "discription": "Downward longwave radiation is heat emitted back to Earth from the atmosphere and can change depending on the composition of the air.",
+    "param": "ALLSKY_SFC_LW_DWN"
+}
+]
