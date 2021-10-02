@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "SnshineProject.app"
-               BlueprintName = "SnshineProject"
-               ReferencedContainer = "container:SnshineProject.xcodeproj">
+               BuildableName = "Sunshine.app"
+               BlueprintName = "Sunshine"
+               ReferencedContainer = "container:Sunshine.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "SnshineProjectTests.xctest"
-               BlueprintName = "SnshineProjectTests"
-               ReferencedContainer = "container:SnshineProject.xcodeproj">
+               BuildableName = "SunshineTests.xctest"
+               BlueprintName = "SunshineTests"
+               ReferencedContainer = "container:Sunshine.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "SnshineProject.app"
-            BlueprintName = "SnshineProject"
-            ReferencedContainer = "container:SnshineProject.xcodeproj">
+            BuildableName = "Sunshine.app"
+            BlueprintName = "Sunshine"
+            ReferencedContainer = "container:Sunshine.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "SnshineProject.app"
-            BlueprintName = "SnshineProject"
-            ReferencedContainer = "container:SnshineProject.xcodeproj">
+            BuildableName = "Sunshine.app"
+            BlueprintName = "Sunshine"
+            ReferencedContainer = "container:Sunshine.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
