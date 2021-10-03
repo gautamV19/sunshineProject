@@ -15,8 +15,12 @@ export default function App() {
     setMapModalState(false);
     setLocation(location)
   }
+  const startdate = new Date(Date.now() - 20*24*60*60*1000).toISOString();
+  const enddate = new Date(Date.now() - 10*24*60*60*1000).toISOString();
+  const s = startdate.slice(0,4) + startdate.slice(5,7) + startdate.slice(8,10);
+  const e = enddate.slice(0,4) + enddate.slice(5,7) + enddate.slice(8,10);
   time = {
-    s: 20210901, e: 20210909,
+    s: s, e: e,
   }
   React.useEffect(() => {
     if (!(location.lat === null || location.lng === null)) {
