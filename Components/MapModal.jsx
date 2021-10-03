@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Button } from 'react-native';
+import { StyleSheet, Text, View, Pressable, BackHandler } from 'react-native';
 import MapView from 'react-native-maps';
 import GetLocation from 'react-native-get-location'
 export const MapModal = ({ mode, callback }) => {
@@ -40,7 +40,9 @@ export const MapModal = ({ mode, callback }) => {
                         longitudeDelta: 10,
                     }}
                 />
-                <Button title="Choose My Current Location" style={styles.btn} onPress={handleClick}></Button>
+                <Pressable style={styles.btn} onPress={handleClick}>
+                    <Text style={styles.currentLocation}>Choose My Current Location</Text>
+                </Pressable>
             </View>
         </View>
     );
@@ -58,6 +60,7 @@ const styles = StyleSheet.create({
         position: 'absolute',
         height: "100%",
         width: "100%",
+        shadowColor: "#000000",
     },
     mapHolder: {
         backgroundColor: '#fff',
@@ -69,8 +72,24 @@ const styles = StyleSheet.create({
     heading: {
         textAlign: "center",
         fontSize: 20,
+        textDecorationColor: "#000000",
+        fontWeight: "bold",
+        margin: 5,
     },
     btn: {
-        fontSize: 20,
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingVertical: 12,
+        paddingHorizontal: 32,
+        borderRadius: 4,
+        elevation: 3,
+        backgroundColor: '#000000',
+    },
+    currentLocation:{
+        fontSize: 16,
+        lineHeight: 21,
+        fontWeight: 'bold',
+        letterSpacing: 0.25,
+        color: '#ffff00',
     },
 });
