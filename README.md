@@ -3,7 +3,7 @@
 * Shortwave radiation is radiant energy with wavelengths in the visible, near-ultraviolet, and near-infrared spectra
 * The wavelength of light responsible for power generation in the solar panels:
 
-![Black body Radiation](docs\images\blackbody.png)
+![Black body Radiation](docs/images/blackbody.png)
 
 This figure shows the solar radiation spectrum for direct light at both the top of the Earth's atmosphere (represented by yellow area) and at sea level (red area). The sun produces light with a distribution similar to what would be expected from a 5778 K (5505 °C) blackbody, which is approximately the sun's surface temperature. As light passes through the atmosphere, some are absorbed by gases with specific absorption bands. Additional light is redistributed by Raleigh scattering, which is responsible for the atmosphere's blue color. These curves are based on the American Society for Testing and Materials (ASTM) Terrestrial Reference Spectra, which are standards adopted by the photovoltaic industry to ensure consistent test conditions and are similar to the light that could be expected in North America. Regions for ultraviolet, visible, and infrared light are indicated.
 
